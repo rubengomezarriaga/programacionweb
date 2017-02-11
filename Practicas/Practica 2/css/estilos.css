@@ -97,6 +97,36 @@ nav a:hover{
 @media only screen and (min-width:480px){
 h1{
 	color:red;
+	font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Pacifico', cursive;
+background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#866400), to(#FF4E28))
+	}
+
+h2{
+	color:red;
+	font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'VT323', monospace;
+border:dashed 5px #000000;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+	}
+
+	h3{
+	color:red;
+	font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Amatic SC', cursive;
+
+outline-style:dashed;
+outline-width:5px;
+outline-color: #000000;
+outline-offset: 5px;
 	}
 
 nav a {
