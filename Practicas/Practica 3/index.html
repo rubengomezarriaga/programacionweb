@@ -18,37 +18,231 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>
+    Ruben Gomez Arriaga
+    </h1>
 
-    <div> class="container">
 
-<div> class="row">
-  <div> class="col-md-3">
-    <p>header</p>
-  </div>
-    <div> class="col-md-9">
-    <p>menu</p>
-  </div>
+    <div class="container"> 
+
+        <div class="row">
+            <div class="col-md-3">
+                <p>HEADER</p>
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+<button type="button" class="btn btn-default" aria-label="Left Align">
+<span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+</button>
 </div>
 
 
-      <div> class="row">
+        <div class="col-md-3">
+                <p>MENU</p>
+              <!--2 combox -->
+     <div class="dropdown">
+<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Opciones
+<span class="caret"></span>
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+<li><a href="#">Opcion 1</a></li>
+<li><a href="#">Opcion 2</a></li>
+<li><a href="#">Opcion 3</a></li>
+<li role="separator" class="divider"></li>
+<li><a href="#">regresar a pagina</a></li>
+</ul>
+</div>
+<!-- FIN DE combox -->
+
+<!--numeros consecutivos   -->
+<div class="btn-toolbar" role="toolbar" aria-label="...">
+  <div class="btn-group" role="group" aria-label="...">1</div>
+  <div class="btn-group" role="group" aria-label="...">2</div>
+  <div class="btn-group" role="group" aria-label="...">3...</div>
+</div>
+
+<!--FIN DE numeros consecutivos   -->
+            </div>
+
+
+  <div class="col-md-3">
+  <p>CAMPO DE EMAIL</p>
+  <!--Ingresar email -->
+      <div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
+<!--FIN DE Ingresar email -->
+
+ <div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Enter a valid email address
+</div>
+
+      </div>
   
- <div> class="col-md-6">
-    <p>article</p>
-  </div>
 
-   <div> class="col-md-6">
-    <p>aside</p>
-  </div>
-</div>
+  <div class="col-md-3">
+  <p>CHECKBOX</p>
+  <!--marcar checkbox -->
+     <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+      <input type="text" class="form-control" aria-label="...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+<!--FIN DE marcar checkbox -->
+      </div>
+        </div>
+       
+
+<!--INICIO SEGUNDO RENGLON -->
+
+        <div class="row">
+             <div class="col-sm-6">
+                 <p>ARTICLE</p>
+
+                   <div class="panel panel-primary">
+                   <div class="panel-heading">
+                   <h3 class="panel-title">WINDOWS</h3>
+                   </div>
+                   <div class="panel-body">
+                         Conseguir el número de serie de nuestro equipo no es nada complejo, pero bien es cierto que Microsoft podía haber pensado un poco más en esto y hacerlo algo más sencillo, 
+                         pero bueno, hoy vamos a ver como obtener este dato a través 
+                         de un comando.
+                        
+                        - Para ello, debemos seguir los siguientes pasos:
+
+                         Acceder a CMD o símbolo de sistema
+                         Teclear el siguiente comando>> wmic bios get serialnumber
+                         Esperar el resultado
+
+                   </div>
+                   </div>
 
 
-<div> class="row">
-  
-</div>
+<div class="input-group">
+      <input type="text" class="form-control" placeholder="A buscar...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">IR!</button>
+      </span>
+    </div><!-- /input-group -->
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
     </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+      
+      
+      </ul>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+             </div>
+             <div class="col-sm-6">
+             <p>ASIDE</p>
+             <div class="panel panel-primary">
+             <div class="panel-heading">
+             <h3 class="panel-title">COPIA DE SEGURIDAD</h3>
+             </div>
+             <div class="panel-body">
+             En primer lugar, debemos acceder hasta la aplicación nativa de Windows para realizar las copias de seguridad, por lo que realizaremos el siguiente proceso>>:
+
+    Pulsar con el botón derecho sobre el icono de Windows
+    Pulsar en Panel de Control
+    Pulsar en Copias de seguridad y restauración (Windows 7) -Sí, la aplicación en la misma que en W7-
+    Pulsar en Crear una imagen de sistema
+    Seguir el asistente hasta su finalización
+
+             </div>
+             </div>
+
+             <ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">INICIO</a></li>
+  <li role="presentation"><a href="#">PERFIL</a></li>
+  <li role="presentation"><a href="#">MENSAJES</a></li>
+</ul>
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+
+             </div>
+        </div>
+
+<!-- FIN SEGUNDO RENGLON -->
+
+
+<!-- INICIO TERCER RENGLON -->
+        <div class="row">
+            <div class="col-md-1">
+              <p>FOOTER</p>
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="ruben" src="itc.jpg">
+      </a>
+    </div>
+  </div>
+</nav>
+            </div>
+
+
+             <div class="col-md-5">
+ <nav class="navbar navbar-inverse">
+ <p class="navbar-text">INSTITUTO TECNOLOGICO DE CELAYA</p>
+</nav>
+ </div>
+
+    <div class="col-md-6">
+ <div class="progress">
+  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span class="sr-only">80% Complete (danger)</span>
+  </div>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item">1.-Buscar</li>
+  <li class="list-group-item">2.-Observar</li>
+  <li class="list-group-item">3.-Analizar</li>
+  <li class="list-group-item">4.-Sintetizar</li>
+  <li class="list-group-item">5.-Redactar</li>
+</ul>
+             </div>
+
+
+        </div>
+      
+    </div>
+<!-- FIN TERCER RENGLON -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
